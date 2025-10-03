@@ -5,13 +5,13 @@ import Header from './Components/Header'
 function App(){
   return(
     <>
+    <HashRouter>
     <Header/>
   <Routes>
-    <HashRouter>
  <Route index  element={<Home/>}></Route>
     <Route path='/home'  element={<Home/>}></Route>
-    </HashRouter>
   </Routes>
+    </HashRouter>
 
     </>
   )
