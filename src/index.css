@@ -1,6 +1,2 @@
 @import 'tailwindcss';
 @plugin 'daisyui';
-.card:hover{
-background-position: right;
-border: 5px;
-}
