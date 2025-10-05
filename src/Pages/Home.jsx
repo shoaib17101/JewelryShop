@@ -1,8 +1,7 @@
-import Style from './Home.module.css'
 export default function Home() {
   return (
     <>
-      <section className="bg-[url(https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/hero.jpg)] bg-center bg-cover lg:h-[773px] h-[550px] flex flex-col md:items-center " id={Style.sec}>
+      <section className="bg-[url(https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/hero.jpg)] bg-center bg-cover lg:h-[773px] h-[550px] flex flex-col md:items-center ">
         <div className="flex flex-col gap-5 h-full p-2 justify-center w-9/12 lg:gap-8 ">
           <h6 className="font-bold font-serif text-[15px]">New Collection</h6>
           <h1 className="font-serif text-[30px] lg:text-[65px] uppercase font-light lg:w-[50%]">The New Ring Sensation</h1>
@@ -38,6 +37,7 @@ export default function Home() {
             </div>
 
           </div>
+          
           <div className="card bg-base-100 w-[100%] shadow-sm bg-[url(https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/earrings-05-b-600x750.jpg)] bg-cover bg-center h-[220px] md:h-[400px]">
 
             <div className="card-body justify-between p-2">
@@ -112,14 +112,14 @@ export default function Home() {
       </section>
       <section>
         <div className="flex md:justify-center md:items-center p-5 md:flex-row flex-col">
-          <div className="nd:w-[30%] flex flex-col gap-5">
+          <div className="md:w-[25%] flex flex-col gap-5">
           <h6 className='font-serif text-lg font-extralight'> Unique Pieces</h6>
           <h1 className="text-4xl font-serif uppercase">Be always on trend</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
              luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
              <button className="btn btn-outline uppercase w-[120px]">Shop Now</button>
           </div>
-          <img src="https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/bg-02.jpg" className=' md:max-w-[330px] md:h-[550px] relative md:left-[5%] lg:left-[10%] h-[300px] mt-3' alt="" />
+          <img src="https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/bg-02.jpg" className=' md:max-w-[330px]  relative md:left-[5%] lg:left-[10%] h-[350px] mt-3' alt="" />
           <img src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5lY2tsYWNlfGVufDB8fDB8fHww" className='img md:max-w-[550px] md:h-[760px] md:hidden lg:inline-block ' alt="" />
         </div>
       </section>
