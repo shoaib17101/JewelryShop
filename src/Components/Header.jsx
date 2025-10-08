@@ -7,7 +7,7 @@ export default function Header() {
         const Menu=(
             <>
             <div className='w-full flex flex-col p-2 z-10 '>
-            <ul className='list-none  gap-4 w-full text-[22px]  '>
+            <ul className='list-none  gap-4 w-full text-[22px] md:hidden '>
                         <li><Link to="/" className='hover:text-amber-500'>Home</Link></li>
                         <li><Link to="/about" className='hover:text-amber-500'>About</Link></li>
                         <li><Link to="/contact" className='hover:text-amber-500'>Contact</Link></li>

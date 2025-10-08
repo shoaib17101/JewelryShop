@@ -76,6 +76,9 @@ export default function Shop() {
 
   return (
     <>
+     <header className="bg-[url(https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/hero.jpg)] bg-blend-overlay bg-[#5e5959] h-[270px] lg:h-[500px] bg-center bg-cover flex flex-col gap-5 items-center justify-center ">
+            <h1 className="text-3xl text-white font-serif uppercase lg:text-[65px]">Shop</h1>
+        </header>
         <section>
         <h1 className="font-serif text-5xl text-center my-6">Shop</h1>
         <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full md:w-[80%] mx-auto px-2">
