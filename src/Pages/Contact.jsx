@@ -22,10 +22,10 @@ export default function Contact(){
                 </ul>
             </div>
             <form action="" className="md:w-1/3 bg-[#f3ede89e] p-10 h-[400px]  ">
-            <input type="text" className="w-1/2 bg-white   p-2 mr-2  " placeholder="First Name" name="" id="fnam" />
+            <input type="text" className="w-[46%] bg-white   p-2 mr-2  " placeholder="First Name" name="" id="fnam" />
             <input type="text" className="w-[46%] bg-white   p-2  " placeholder="Last Name" name="" id="lname" />
-            <input type="email" className="w-full bg-white   p-2 my-5" placeholder="Email " name="" id="email" />
-            <textarea name="" className="w-full h-[90px] bg-white my-5" id="textarea"></textarea>
+            <input type="email" className="w-[93.5%] bg-white   p-2 my-5" placeholder="Email " name="" id="email" />
+            <textarea name="" className="w-[93.5%] h-[90px] bg-white my-5" id="textarea"></textarea>
             <button className="btn btn-outline btn-lg">Send</button>
             </form> 
         </section>

@@ -69,20 +69,23 @@ export default function Shop() {
 
   const handleAddToCart = (product) => {
     setCart((prev) => [...prev, product]);
+    console.log(cart);
+    
+      
   };
 
   return (
     <>
         <section>
         <h1 className="font-serif text-5xl text-center my-6">Shop</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full md:w-[80%] mx-auto px-2">
+        <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full md:w-[80%] mx-auto px-2">
           {products.map((product) => (
             <Link
               to={`/shop/${product.id}`}
               key={product.id}
               className="card h-[320px] md:h-[400px] flex flex-col cursor-pointer hover:shadow-lg transition"
             >
-              <figure className="h-[180px] md:h-full flex items-center justify-center overflow-hidden">
+              <figure className="h-full md:h-full flex items-center justify-center overflow-hidden">
                 <img
                   src={product.image}
                   alt={product.name}
