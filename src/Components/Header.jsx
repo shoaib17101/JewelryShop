@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <>
             <nav className="navbar navbar-lg bg-transparent shadow-md flex justify-between lg:justify-center p-3 lg:gap-[13%] h-[90px] relative">
-                <ul className="list-none hidden gap-5 uppercase text-[15px] lg:flex ">
+                <ul className="list-none hidden gap-5 uppercase text-[15px] md:flex ">
                     <li><Link to="/rings" className='hover:text-amber-500 cursor-pointer hover:border-t-1 border-amber-500'>Rings</Link></li>
                     <li><Link to="/bracelets" className='hover:text-amber-500 cursor-pointer hover:border-t-1 border-amber-500'>Bracelets</Link></li>
                     <li><Link to="/earrings" className='hover:text-amber-500 cursor-pointer hover:border-t-1 border-amber-500'>earRings</Link></li>
@@ -28,9 +28,9 @@ export default function Header() {
                     <img src="https://websitedemos.net/blingg-jewelry-store-04/wp-content/uploads/sites/1119/2022/08/logo-retina.png" className='w-[100px]' alt="" />
                 </div>
                 <div>
-                    <h1 className='text-4xl lg:hidden cursor-pointer' onClick={() => setOpen(!open)}>&#8801;</h1>
+                    <h1 className='text-4xl md:hidden cursor-pointer' onClick={() => setOpen(!open)}>&#8801;</h1>
                 </div>
-                <div className="lg:flex gap-2 hidden relative">
+                <div className="md:flex gap-2 hidden relative">
                     <ul className='list-none flex gap-4'>
                         <li><Link to="/" className='hover:text-amber-500'>Home</Link></li>
                         <li><Link to="/about" className='hover:text-amber-500'>About</Link></li>
